@@ -4,6 +4,15 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.length() == 0 %>
+    <div class="alert alert-info" role="alert">
+      "Your cart is empty 😿 " 
+    </div>
+
+    <a class="btn btn-primary" href="/" role="button">HOME PAGE</a>
+
+  
+  <% elsif %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +57,6 @@
       <% end %>
     </div>
   </div>
+  <% end %>
 
 </section>
