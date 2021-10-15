@@ -1,0 +1,15 @@
+<tr>
+  <td>
+    <%= category.name %>
+  </td>
+  <td>
+    <a href='/admin/products'><%= category.products.count %></a>
+  </td>
+  <td>
+    <ul>
+      <% category.products.each do |product| %>
+        <li><a href='/products/<%=product.id%>'><%= product.name %></a></li>
+      <% end %>
+    </ul>
+  </td>
+</tr> 
