@@ -6,8 +6,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 -Jungle
 
+-Products
 !["Products"](https://raw.githubusercontent.com/Anag16/Jungle/master/docs/Categories.gif)
 
+
+-Shopping
 !["Shopping"](https://raw.githubusercontent.com/Anag16/Jungle/master/docs/Shopping.gif)
 
 ## Additional Steps for Apple M1 Machines
