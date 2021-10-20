@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 
--Jungle
+
 
 -Products
 !["Products"](https://raw.githubusercontent.com/Anag16/Jungle/master/docs/Categories.gif)
