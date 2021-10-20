@@ -28,8 +28,8 @@ RSpec.describe User, type: :model do
       expect(user_four).to_not be_valid
     end
 
-    it "is not valid if the password length is less than 7" do
-      user_five = User.create(first_name: "Test", last_name: "Testing", email: "tested@tested.com", password: "heart", password_confirmation: "heart")
+    it "is not valid if the password length is less than 3" do
+      user_five = User.create(first_name: "Test", last_name: "Testing", email: "tested@tested.com", password: "hi", password_confirmation: "hi")
       expect(user_five).to_not be_valid
     end
   end
